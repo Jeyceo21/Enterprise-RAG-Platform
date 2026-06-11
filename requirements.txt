@@ -1,0 +1,12 @@
+sentence-transformers
+faiss-cpu
+numpy
+pandas
+fastapi
+uvicorn
+streamlit
+python-dotenv
+openai
+pypdf
+langchain
+langchain-community

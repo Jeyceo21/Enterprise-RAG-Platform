@@ -1,0 +1,13 @@
+Artificial Intelligence is the simulation of human intelligence by machines.
+
+Machine Learning is a subset of Artificial Intelligence.
+
+Deep Learning uses neural networks with many layers.
+
+Retrieval Augmented Generation combines retrieval systems and large language models.
+
+FAISS is a vector similarity search library developed by Facebook AI Research.
+
+Sentence Transformers generate semantic embeddings.
+
+Vector databases store embeddings for efficient retrieval.
