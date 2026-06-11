@@ -108,6 +108,21 @@ streamlit run frontend/app.py
 
 ---
 
+## Screenshots
+
+### PDF Upload
+
+![PDF Upload](assets/upload-screen.png)
+
+### Question Answering
+
+![Question Answering](assets/qa-screen.png)
+
+### Retrieved Context
+
+![Retrieved Context](assets/retrieved-context.png)
+
+
 ## Author
 
 Jeyanthan Petchimuthu
