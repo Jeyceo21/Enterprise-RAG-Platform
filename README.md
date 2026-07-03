@@ -305,3 +305,250 @@ Generated Answer
 ✔ Enterprise Chatbot
 
 ✔ Corporate Knowledge Base
+---
+
+# 🚀 Installation
+
+## Prerequisites
+
+Before running the project, ensure the following are installed:
+
+- Python 3.11+
+- Git
+- Ollama
+- pip
+
+---
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/Jeyceo21/Enterprise-RAG-Platform.git
+cd Enterprise-RAG-Platform
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Install Ollama
+
+Download and install Ollama:
+
+https://ollama.com
+
+Pull the Llama model:
+
+```bash
+ollama pull llama3
+```
+
+---
+
+## Build the Vector Database
+
+```bash
+python src/ingest.py
+```
+
+---
+
+## Start the FastAPI Backend
+
+```bash
+uvicorn api.main:app --reload
+```
+
+Backend URL
+
+```
+http://localhost:8000
+```
+
+---
+
+## Launch the Streamlit Frontend
+
+```bash
+streamlit run frontend/app.py
+```
+
+Application URL
+
+```
+http://localhost:8501
+```
+
+---
+
+# 💻 Usage
+
+1. Upload your documents.
+2. Generate embeddings.
+3. Index documents into FAISS.
+4. Start the FastAPI server.
+5. Open the Streamlit interface.
+6. Ask natural language questions.
+7. Receive AI-generated answers grounded in your documents.
+
+---
+
+# 🌐 REST API
+
+## Generate Response
+
+### Endpoint
+
+```
+POST /generate
+```
+
+### Request
+
+```json
+{
+  "query": "Explain Retrieval Augmented Generation"
+}
+```
+
+### Response
+
+```json
+{
+  "answer": "Retrieval-Augmented Generation (RAG) combines semantic retrieval with Large Language Models to generate context-aware responses."
+}
+```
+
+---
+
+# ⚡ Performance
+
+The platform is designed with scalability in mind.
+
+### Current Capabilities
+
+- Fast semantic search using FAISS
+- Low-latency vector retrieval
+- Local LLM inference with Ollama
+- Modular architecture for easy expansion
+
+### Suitable For
+
+- Enterprise documentation
+- Research repositories
+- Internal knowledge bases
+- AI assistants
+- Technical documentation search
+
+---
+
+# 🔒 Security Considerations
+
+Current implementation includes:
+
+- Local document processing
+- Local LLM execution
+- No third-party API dependency
+- Modular backend architecture
+
+Planned enhancements:
+
+- Authentication
+- Role-Based Access Control (RBAC)
+- HTTPS deployment
+- Secure API keys
+- Audit logging
+
+---
+
+# 🛣️ Roadmap
+
+## Phase 1
+
+- [x] Semantic Search
+- [x] FastAPI Backend
+- [x] Streamlit Frontend
+- [x] FAISS Integration
+- [x] Ollama Integration
+
+---
+
+## Phase 2
+
+- [ ] Multi-document collections
+- [ ] Hybrid Search (Keyword + Semantic)
+- [ ] Metadata Filtering
+- [ ] Conversation Memory
+
+---
+
+## Phase 3
+
+- [ ] Docker Support
+- [ ] Kubernetes Deployment
+- [ ] CI/CD Pipeline
+- [ ] Cloud Deployment (AWS / Azure / GCP)
+- [ ] User Authentication
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+To contribute:
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Push the branch.
+5. Open a Pull Request.
+
+---
+
+# 👨‍💻 Author
+
+### Jeyanthan Petchimuthu
+
+AI Engineer | Machine Learning Engineer | Full Stack Developer
+
+- GitHub: https://github.com/Jeyceo21
+- LinkedIn: https://www.linkedin.com/in/jeyanthan-petchimuthu-777ba6329/
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for more details.
+
+---
+
+# ⭐ Support
+
+If you found this project useful,
+
+please consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future development.
+
+---
+
+<p align="center">
+
+Built with ❤️ using Python, FastAPI, FAISS, Ollama, Streamlit and Large Language Models.
+
+</p>
+
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer"/>
+
+</p>
