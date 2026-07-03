@@ -505,44 +505,78 @@ Planned enhancements:
 
 # 🤝 Contributing
 
-Contributions are welcome.
+Contributions, feature requests, and suggestions are welcome.
 
-To contribute:
+If you'd like to improve this project:
 
 1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push the branch.
+2. Create a feature branch (`git checkout -b feature/your-feature`).
+3. Commit your changes with clear commit messages.
+4. Push your branch.
 5. Open a Pull Request.
+
+Please ensure that new code is well documented and follows the existing project structure.
 
 ---
 
 # 👨‍💻 Author
 
-### Jeyanthan Petchimuthu
+## Jeyanthan Petchimuthu
 
-AI Engineer | Machine Learning Engineer | Full Stack Developer
+AI Engineer • Machine Learning Engineer • Full Stack Developer
 
-- GitHub: https://github.com/Jeyceo21
-- LinkedIn: https://www.linkedin.com/in/jeyanthan-petchimuthu-777ba6329/
+B.Tech Computer Science Engineering • NIIT University
+
+### Connect with me
+
+- 🐙 GitHub: https://github.com/Jeyceo21
+- 💼 LinkedIn: https://www.linkedin.com/in/jeyanthan-petchimuthu-777ba6329/
+- 📧 Email: jeyanthanpetchimuthu@gmail.com
+
+---
+
+# 📬 Contact
+
+For collaboration, internship opportunities, technical discussions, or project feedback, feel free to reach out.
+
+I am always interested in discussing:
+
+- Artificial Intelligence
+- Machine Learning
+- Generative AI
+- Retrieval-Augmented Generation (RAG)
+- Large Language Models
+- Full Stack Development
 
 ---
 
 # 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
-See the LICENSE file for more details.
+You are free to use, modify, and distribute this project in accordance with the license terms.
 
 ---
 
-# ⭐ Support
+# 🌟 Support
 
-If you found this project useful,
+If you found this project useful or learned something from it, please consider giving this repository a ⭐.
 
-please consider giving it a ⭐ on GitHub.
+Your support helps improve the project and motivates future development.
 
-It helps others discover the project and motivates future development.
+---
+
+<p align="center">
+
+### Enterprise RAG Platform
+
+Enterprise-grade Semantic Search & AI Question Answering
+
+Built using
+
+**Python • FastAPI • FAISS • Sentence Transformers • Ollama • Streamlit**
+
+</p>
 
 ---
 
@@ -550,7 +584,7 @@ It helps others discover the project and motivates future development.
 
 Designed & Developed by
 
-<b>Jeyanthan Petchimuthu</b>
+## Jeyanthan Petchimuthu
 
 AI Engineer • Machine Learning Engineer • Full Stack Developer
 
@@ -558,6 +592,8 @@ AI Engineer • Machine Learning Engineer • Full Stack Developer
 
 <p align="center">
 
-⭐ If you found this repository useful, consider giving it a Star.
+⭐ Thank you for visiting this repository.
+
+If you enjoyed this project, consider giving it a star!
 
 </p>
