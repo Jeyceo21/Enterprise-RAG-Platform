@@ -96,3 +96,212 @@ The application follows a Retrieval-Augmented Generation workflow:
 4. Retrieved context is combined with the user query.
 5. Ollama-powered LLM generates a context-aware response.
 6. The response is displayed through the Streamlit interface.
+---
+
+# 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+
+A[👤 User Query] --> B[💻 Streamlit Frontend]
+
+B --> C[⚡ FastAPI Backend]
+
+C --> D[📝 Query Processing]
+
+D --> E[🔎 Sentence Transformer Embeddings]
+
+E --> F[(📚 FAISS Vector Database)]
+
+F --> G[📄 Top-K Relevant Chunks]
+
+G --> H[🤖 Ollama LLM]
+
+H --> I[💬 AI Generated Response]
+
+I --> J[🖥️ Streamlit Interface]
+```
+
+---
+
+# ⚙️ Technology Stack
+
+| Category | Technologies |
+|------------|--------------|
+| **Language** | Python |
+| **Frontend** | Streamlit |
+| **Backend** | FastAPI |
+| **Vector Database** | FAISS |
+| **Embeddings** | Sentence Transformers |
+| **LLM** | Ollama (Llama 3) |
+| **API** | REST |
+| **Deployment** | Local / Docker (Planned) |
+
+---
+
+# 📂 Project Structure
+
+```text
+Enterprise-RAG-Platform/
+
+│
+├── api/
+│   └── main.py
+│
+├── frontend/
+│   └── app.py
+│
+├── src/
+│   ├── chunker.py
+│   ├── config.py
+│   ├── ingest.py
+│   ├── llm.py
+│   ├── pdf_ingest.py
+│   ├── rag.py
+│   └── search.py
+│
+├── vectorstore/
+│   ├── faiss.index
+│   └── docs.pkl
+│
+├── data/
+│
+├── assets/
+│   ├── architecture.png
+│   ├── dashboard.png
+│   ├── search.png
+│   ├── result.png
+│   └── demo.gif
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+---
+
+# 📸 Application Preview
+
+> Replace these placeholders with actual screenshots after running the project.
+
+## Dashboard
+
+<p align="center">
+
+<img src="assets/dashboard.png" width="900"/>
+
+</p>
+
+---
+
+## Semantic Search
+
+<p align="center">
+
+<img src="assets/search.png" width="900"/>
+
+</p>
+
+---
+
+## AI Generated Answer
+
+<p align="center">
+
+<img src="assets/result.png" width="900"/>
+
+</p>
+
+---
+
+# 🎥 Demo
+
+<p align="center">
+
+<img src="assets/demo.gif"/>
+
+</p>
+
+---
+
+# 🚀 Key Capabilities
+
+## 📄 Intelligent Document Processing
+
+- Automatic document ingestion
+- Smart text chunking
+- Metadata preservation
+- Scalable indexing pipeline
+
+---
+
+## 🔍 Semantic Retrieval
+
+- Dense vector search
+- Context-aware retrieval
+- High-speed similarity matching
+- Top-K relevant chunk extraction
+
+---
+
+## 🤖 AI Question Answering
+
+- Retrieval-Augmented Generation
+- Context-aware LLM responses
+- Reduced hallucinations
+- Enterprise knowledge assistance
+
+---
+
+## ⚡ Backend Services
+
+- RESTful FastAPI APIs
+- Modular architecture
+- Easy integration
+- High maintainability
+
+---
+
+# 📈 RAG Workflow
+
+```text
+User Query
+      │
+      ▼
+Embedding Generation
+      │
+      ▼
+FAISS Similarity Search
+      │
+      ▼
+Retrieve Relevant Chunks
+      │
+      ▼
+Prompt Construction
+      │
+      ▼
+Ollama LLM
+      │
+      ▼
+Generated Answer
+```
+
+---
+
+# 💡 Enterprise Use Cases
+
+✔ Internal Knowledge Assistant
+
+✔ HR Policy Search
+
+✔ Legal Document Retrieval
+
+✔ Technical Documentation Search
+
+✔ Customer Support Assistant
+
+✔ Research Paper Exploration
+
+✔ Enterprise Chatbot
+
+✔ Corporate Knowledge Base
