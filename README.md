@@ -1,28 +1,41 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=260&section=header&text=Enterprise%20RAG%20Platform&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
+
+<img src="assets/banner.png" width="100%"/>
+
 </p>
 
 <h1 align="center">
+
 🧠 Enterprise RAG Platform
+
 </h1>
 
 <h3 align="center">
-Enterprise-grade Retrieval-Augmented Generation (RAG) Platform for Semantic Search and AI-Powered Question Answering
+
+Enterprise-grade Retrieval-Augmented Generation (RAG) Platform for Semantic Search & AI-powered Question Answering
+
 </h3>
 
 <p align="center">
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+
 <img src="https://img.shields.io/badge/FAISS-00599C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Sentence_Transformers-5C2D91?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Sentence_Transformers-6E40C9?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LLM-RAG-blueviolet?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/RAG-AI-blueviolet?style=for-the-badge"/>
 
 </p>
 
 ---
+
 
 # 📖 Overview
 
