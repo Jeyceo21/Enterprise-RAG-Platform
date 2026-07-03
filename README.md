@@ -195,47 +195,39 @@ Enterprise-RAG-Platform/
 
 # 📸 Application Preview
 
-> Replace these placeholders with actual screenshots after running the project.
-
-## Dashboard
+## 📤 Document Upload
 
 <p align="center">
-
-<img src="assets/dashboard.png" width="900"/>
-
+<img src="assets/upload-screen.png" width="100%"/>
 </p>
 
 ---
 
-## Semantic Search
+## ❓ Question Answering
 
 <p align="center">
-
-<img src="assets/search.png" width="900"/>
-
+<img src="assets/qa-screen.png" width="100%"/>
 </p>
 
 ---
 
-## AI Generated Answer
+## 📚 Retrieved Context
 
 <p align="center">
-
-<img src="assets/result.png" width="900"/>
-
+<img src="assets/retrieved-context.png" width="100%"/>
 </p>
 
 ---
 
 # 🎥 Demo
 
+> 🚧 Demo GIF coming soon.
+
+<!-- Replace this section with:
 <p align="center">
-
-<img src="assets/demo.gif"/>
-
+<img src="assets/demo.gif" width="100%"/>
 </p>
-
----
+-->
 
 # 🚀 Key Capabilities
 
