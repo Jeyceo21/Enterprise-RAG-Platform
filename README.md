@@ -548,12 +548,16 @@ It helps others discover the project and motivates future development.
 
 <p align="center">
 
-Built with ❤️ using Python, FastAPI, FAISS, Ollama, Streamlit and Large Language Models.
+Designed & Developed by
+
+<b>Jeyanthan Petchimuthu</b>
+
+AI Engineer • Machine Learning Engineer • Full Stack Developer
 
 </p>
 
 <p align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer"/>
+⭐ If you found this repository useful, consider giving it a Star.
 
 </p>
